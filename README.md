@@ -1,1 +1,1 @@
-# Digital-Control-for-vacuum-maintenance-and-parameter-monitoring-
+This is  a work in progress for the development of A GUI that is able to operate the roughing pump and TURBO pump as well as monitor the parameters of the cryogenic systems. The plataform used is PyQT6 which generates the first_draft.ui file which is converted to a python file namely, final_version_2.py and operate uses all the objects created in the final_version_2.py file to put together a GUI that works! 
