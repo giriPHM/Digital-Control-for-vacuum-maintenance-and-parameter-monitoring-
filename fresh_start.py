@@ -6,6 +6,7 @@ import time
 uart=UART(1, baudrate=115200)
 temp_sensor= ADC(4)
 
+#This is the new comment
 def temperature():
     raw_sensor_data= temp_sensor.read_u16()
     sensor_voltage=(raw_sensor_data/65535)*3.3
