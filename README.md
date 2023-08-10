@@ -1,1 +1,9 @@
-This is  a work in progress for the development of A GUI that is able to operate the roughing pump and TURBO pump as well as monitor the parameters of the cryogenic systems. The plataform used is PyQT6 which generates the first_draft.ui file which is converted to a python file namely, final_version_2.py and operate uses all the objects created in the final_version_2.py file to put together a GUI that works! 
+#Please read all of it before operating the system!
+
+This is the project for controlling the vacuum system and retreiving some system properties like pressure, temperature of the chip,etc.
+
+To operate it, you have to run the operate.py from the terminal. If you are using the raspberry Pi currently being used in the big lab, you have to find operate.py in tehe GUI_file directory in the home directory and run "operate.py".
+
+You will see a GUI appear and you can see Display_kickoff in the middle. Press the button to see the system parameters. Follow the start and stop button associated with the respective TURBO or Roughing pump to turn them on. 
+
+Be sure to turn both tehe power supply on before doing all this!
